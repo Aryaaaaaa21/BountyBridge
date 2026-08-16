@@ -1,7 +1,8 @@
 import { 
   isConnected, 
   getAddress, 
-  signMessage 
+  signMessage,
+  requestAccess
 } from '@stellar/freighter-api';
 import { 
   Horizon 
@@ -48,12 +49,35 @@ export const stellarService = {
         throw new Error('Freighter wallet extension is not installed.');
       }
       
-      const addrStatus = await getAddress();
-      if (!addrStatus.address) {
-        throw new Error('Could not retrieve public key. Please unlock Freighter.');
+      let publicKey = '';
+      
+      try {
+        // requestAccess prompts the user to unlock the extension and authorize the app
+        const access = await requestAccess();
+        if (access && access.address) {
+          publicKey = access.address;
+        } else if (access && access.error) {
+          throw new Error(access.error);
+        }
+      } catch (err) {
+        console.warn('requestAccess failed, falling back to getAddress:', err);
       }
 
-      const publicKey = addrStatus.address;
+      // If requestAccess didn't return an address, fall back to getAddress
+      if (!publicKey) {
+        try {
+          const addrStatus = await getAddress();
+          if (addrStatus && addrStatus.address) {
+            publicKey = addrStatus.address;
+          }
+        } catch (err) {
+          console.warn('getAddress failed:', err);
+        }
+      }
+
+      if (!publicKey) {
+        throw new Error('Could not retrieve public key. Please unlock Freighter and authorize the connection.');
+      }
 
       // Fetch balance
       let balance = '0.00';
