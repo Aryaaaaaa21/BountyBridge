@@ -182,7 +182,7 @@ Responsive layout across mobile devices.
 
 ### CI/CD Pipeline & Test Results
 
-<img width="1898" height="981" alt="image" src="https://github.com/user-attachments/assets/78a6f8c3-c82b-44a4-a187-33089e4fdb4d" />
+<img width="1893" height="978" alt="image" src="https://github.com/user-attachments/assets/c8dc1411-4e62-408f-ac0e-23f2992892b9" />
 
 GitHub Actions workflow showing successful builds and passing tests.
 
@@ -232,25 +232,6 @@ We use **GitHub Actions** to automate CI/CD processes. The workflow runs on ever
 *   **Feedback Summary:** Average payout settlement duration measured under 4.5 seconds. Adding a simulator login options significantly resolved onboarding friction. UI components were optimized based on mobile responsive feedback.
 *   **Google Form Link:** [Feedback Survey Link](https://forms.gle/z3UzRMuprXFxJrt9A)
 *   **Google Sheet Link:** [Feedback Audit Sheet Link](https://docs.google.com/spreadsheets/d/16r2mraICSqApa5PZrn1tiqjff0bxpUnglcUSC72cMPQ/edit?usp=sharing)
-
----
-
-## 13. Verified Wallet Interactions
-
-The following 10 real user transactions were successfully executed on the Stellar Testnet:
-
-| Wallet Address | Transaction Hash | Action | Status | Date |
-|---|---|---|---|---|
-| `GBZ3...LMRV` | `7be330d...15bc0f` | Create Bounty (ID: 1) | Success | 2026-07-06 |
-| `GDQY...PZ2X` | `1c890ae...33190b` | Lock Reward Escrow (150 XLM) | Success | 2026-07-06 |
-| `GCRJ...34MK` | `4fa8892...dd521f` | Register Submission (Repo link) | Success | 2026-07-06 |
-| `GBZ3...LMRV` | `88a10bc...ff559c` | Select Winner (GDQY) | Success | 2026-07-07 |
-| `GA3C...77QR` | `5c77891...33d1ab` | Create Bounty (ID: 2) | Success | 2026-07-07 |
-| `GDKL...99WX` | `6c101ff...ab881e` | Lock Reward Escrow (500 XLM) | Success | 2026-07-07 |
-| `GBZ3...LMRV` | `901abcf...cd891e` | Peer Payment (5 XLM) | Success | 2026-07-07 |
-| `GDQY...PZ2X` | `0ea22bc...1133ab` | Register Submission | Success | 2026-07-07 |
-| `GA3C...77QR` | `41a3bc8...99ff1e` | Select Winner (GDKL) | Success | 2026-07-07 |
-| `GBZ3...LMRV` | `e2a229b...1567bc` | Cancel Bounty (ID: 2 - Refund) | Success | 2026-07-07 |
 
 ---
 
