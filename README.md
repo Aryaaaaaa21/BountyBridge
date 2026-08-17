@@ -138,20 +138,24 @@ Create a `.env` file in the `client` folder:
 ```ini
 VITE_RPC_URL=https://soroban-testnet.stellar.org
 VITE_NETWORK_PASSPHRASE="Test SDF Network ; September 2015"
-VITE_ESCROW_CONTRACT_ID=CAXMWH5RIF3ZTH6IGKZMBMLNM6ESES56SYKZFA3BJGO37YKXTEJUM2IP
-VITE_REGISTRY_CONTRACT_ID=CCV2TRDYYCGZE5AEQYZSZXVH6FYKBDPTRAXS2ZMI377ROMUULIGHKKHX
+VITE_ESCROW_CONTRACT_ID=CCLOZYSE7NORK6UVQZW5NFIO2YL4PAUYGRWLIBHFNQTMICNJMGSARMPY
+VITE_REGISTRY_CONTRACT_ID=CDQVPZ5SCBA5OQL73432ZI3LC52MEUOLPVEYD6A2655J6BQHCPEPSTBJ
 ```
 
 ---
 
 ## 8. Deployment Information
 
-*   **Live Demo Link:** [https://bounty-bridge-rho.vercel.app]
-*   **BountyEscrow Address:** `CAXMWH5RIF3ZTH6IGKZMBMLNM6ESES56SYKZFA3BJGO37YKXTEJUM2IP`
-*   **SubmissionRegistry Address:** `CCV2TRDYYCGZE5AEQYZSZXVH6FYKBDPTRAXS2ZMI377ROMUULIGHKKHX`
-*   **Contract Explorer Link:** [Stellar.Expert Contract Audit Explorer](https://stellar.expert/explorer/testnet/contract/CAXMWH5RIF3ZTH6IGKZMBMLNM6ESES56SYKZFA3BJGO37YKXTEJUM2IP)
+*   **Live Demo Link:** [https://bounty-bridge-three.vercel.app](https://bounty-bridge-three.vercel.app)
 *   **Network:** Stellar Testnet
-*   **Deployment Platform:** Netlify
+*   **Deployment Platform:** Vercel
+
+### Smart Contract Deployment
+
+| Contract | Network | Contract Address | Explorer |
+|---|---|---|---|
+| **BountyEscrow** | Stellar Testnet | `CCLOZYSE7NORK6UVQZW5NFIO2YL4PAUYGRWLIBHFNQTMICNJMGSARMPY` | [Stellar.Expert Explorer Link](https://stellar.expert/explorer/testnet/contract/CCLOZYSE7NORK6UVQZW5NFIO2YL4PAUYGRWLIBHFNQTMICNJMGSARMPY) |
+| **SubmissionRegistry** | Stellar Testnet | `CDQVPZ5SCBA5OQL73432ZI3LC52MEUOLPVEYD6A2655J6BQHCPEPSTBJ` | [Stellar.Expert Explorer Link](https://stellar.expert/explorer/testnet/contract/CDQVPZ5SCBA5OQL73432ZI3LC52MEUOLPVEYD6A2655J6BQHCPEPSTBJ) |
 
 ---
 
