@@ -146,7 +146,7 @@ VITE_REGISTRY_CONTRACT_ID=CCV2TRDYYCGZE5AEQYZSZXVH6FYKBDPTRAXS2ZMI377ROMUULIGHKK
 
 ## 8. Deployment Information
 
-*   **Live Demo Link:** [https://bountybridge.netlify.app](https://bountybridge.netlify.app)
+*   **Live Demo Link:** [https://bounty-bridge-rho.vercel.app]
 *   **BountyEscrow Address:** `CAXMWH5RIF3ZTH6IGKZMBMLNM6ESES56SYKZFA3BJGO37YKXTEJUM2IP`
 *   **SubmissionRegistry Address:** `CCV2TRDYYCGZE5AEQYZSZXVH6FYKBDPTRAXS2ZMI377ROMUULIGHKKHX`
 *   **Contract Explorer Link:** [Stellar.Expert Contract Audit Explorer](https://stellar.expert/explorer/testnet/contract/CAXMWH5RIF3ZTH6IGKZMBMLNM6ESES56SYKZFA3BJGO37YKXTEJUM2IP)
@@ -230,9 +230,8 @@ We use **GitHub Actions** to automate CI/CD processes. The workflow runs on ever
 *   **10+ Wallet Interactions:** Successfully executed and recorded on Stellar Testnet.
 *   **Feedback Collection Process:** Users completed a Google Form detailing usability, transaction delays, and feature suggestions. Data was automatically aggregated in a Google Sheet.
 *   **Feedback Summary:** Average payout settlement duration measured under 4.5 seconds. Adding a simulator login options significantly resolved onboarding friction. UI components were optimized based on mobile responsive feedback.
-*   **Google Form Link:** [Feedback Survey Link](https://forms.gle/z3UzRMuprXFxJrt9A)
-*   **Google Sheet Link:** [Feedback Audit Sheet Link](https://docs.google.com/spreadsheets/d/16r2mraICSqApa5PZrn1tiqjff0bxpUnglcUSC72cMPQ/edit?usp=sharing)
-
+*   **Google Form Link:** [Feedback Survey Link](https://forms.gle/SLAcFisfN4K7K3CX7)
+*   **Google Sheet Link:** [Feedback Audit Sheet Link](https://docs.google.com/spreadsheets/d/1IIORKh26c_MwJs8jEo7DSNLfp5NDOUuZGasWQMTMOTI/edit?usp=sharing)
 ---
 
 ## 14. Stellar Compliance Checklist
